@@ -78,6 +78,8 @@
 .black-friday-destinations {
     display: flex;
     justify-content: center;
+    align-items: center;
+    
     gap: 40px;
     flex-wrap: wrap;
     max-width: 1200px;
