@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    justify-content: center;
 }
 
 .black-friday-title {
@@ -27,6 +28,294 @@
     margin-bottom: 15px;
     font-style: italic;
 }
+
+
+/* seccion friday black */
+
+
+
+
+
+
+.black-friday-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.black-friday-content p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+.countdown-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.black-friday-section {
+    background-color: rgb(26, 26, 26);
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.black-friday-content-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.black-friday-description {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+.black-friday-destinations {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.destination-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    position: relative;
+    transition: transform 0.3s;
+
+}
+
+.destination-card:hover {
+    transform: scale(1.05);
+}
+
+.destination-card-header {
+    padding: 15px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    border-bottom: 2px solid #444;
+    overflow: hidden;
+}
+
+.destination-card-header h3 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 0;
+    color: white;
+}
+
+.destination-card-header .discount {
+    font-size: 1.2rem;
+    color: #ff4757;
+    font-weight: bold;
+}
+
+.destination-card-img img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-bottom: 2px solid #444;
+}
+
+.destination-card-body {
+    padding: 15px;
+}
+
+.destination-card-body p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.black-friday-btn {
+    background-color: #ff4757;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+    max-width: fit-content;
+}
+
+.black-friday-btn:hover {
+    background-color: #e84118;
+}
+
+.black-friday-info {
+    font-size: 1.4rem;
+    color: #ccc;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .black-friday-destinations {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.black-friday-section {
+    background-color: rgb(26, 26, 26);
+    padding: 50px;
+    text-align: center;
+}
+
+.black-friday-content-header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+.black-friday-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.black-friday-destinations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+
+.destination-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.discount {
+    font-size: 1.2rem;
+    color: #ff4757;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.black-friday-btn {
+    background-color: #ff4757;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.black-friday-btn:hover {
+    background-color: #e84118;
+}
+
+.black-friday-info {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 30px;
+}
+
+.countdown {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.countdown-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
