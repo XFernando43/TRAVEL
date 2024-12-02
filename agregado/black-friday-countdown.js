@@ -1,4 +1,4 @@
-const countdownDate = new Date("Dec 1, 2024 23:59:59").getTime();
+const countdownDate = new Date("Dec 4, 2024 23:59:59").getTime();
 const countdownElements = document.querySelectorAll(".countdown-timer");
 
 countdownElements.forEach((element) => {
